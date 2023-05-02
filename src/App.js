@@ -12,7 +12,7 @@ export default function App() {
     'monday',
   ];
 
-  const [search, setSearch] = useState([]);
+  // const [search, setSearch] = useState([]);
 
   // useEffect(() => {
   //   setSearch(array);
@@ -55,7 +55,7 @@ export default function App() {
       />
 
       <datalist id="allDataHere" style={{ fontSize: '30px' }}>
-        {search.map((item) => (
+        {array.map((item) => (
           <option style={{ color: 'red', fontSize: '30px' }} value={item}>
             {item}
           </option>
